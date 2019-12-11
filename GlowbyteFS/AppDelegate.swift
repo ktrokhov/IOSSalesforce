@@ -13,7 +13,7 @@ import GoogleMaps
 import GooglePlaces
 import SmartSync
 
-var googleApiKey="AIzaSyBF_f6g7VDTBb5Czb78Py2EUHdpEQyG2CI"
+var googleApiKey="API-KEY"
 
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
