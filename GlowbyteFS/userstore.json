@@ -1,0 +1,13 @@
+{
+  "soups": [
+    {
+      "soupName": "Case",
+      "indexes": [
+        {
+          "path": "Id",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

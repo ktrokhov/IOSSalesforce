@@ -1,0 +1,93 @@
+PODS:
+  - Alamofire (4.9.1)
+  - FMDB/SQLCipher (2.7.5):
+    - SQLCipher
+  - GoogleMaps (3.6.0):
+    - GoogleMaps/Maps (= 3.6.0)
+  - GoogleMaps/Base (3.6.0)
+  - GoogleMaps/Maps (3.6.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.6.0):
+    - GoogleMaps/Base (= 3.6.0)
+  - SalesforceAnalytics (7.3.0):
+    - SalesforceAnalytics/SalesforceAnalytics (= 7.3.0)
+  - SalesforceAnalytics/SalesforceAnalytics (7.3.0):
+    - SalesforceSDKCommon
+  - SalesforceSDKCommon (7.3.0):
+    - SalesforceSDKCommon/SalesforceSDKCommon (= 7.3.0)
+  - SalesforceSDKCommon/SalesforceSDKCommon (7.3.0)
+  - SalesforceSDKCore (7.3.0):
+    - SalesforceSDKCore/SalesforceSDKCore (= 7.3.0)
+  - SalesforceSDKCore/SalesforceSDKCore (7.3.0):
+    - SalesforceAnalytics
+    - SalesforceSDKCore/SalesforceSDKCore/arc (= 7.3.0)
+    - SalesforceSDKCore/SalesforceSDKCore/base (= 7.3.0)
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc (= 7.3.0)
+  - SalesforceSDKCore/SalesforceSDKCore/arc (7.3.0):
+    - SalesforceAnalytics
+    - SalesforceSDKCore/SalesforceSDKCore/base
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc
+  - SalesforceSDKCore/SalesforceSDKCore/base (7.3.0):
+    - SalesforceAnalytics
+  - SalesforceSDKCore/SalesforceSDKCore/no-arc (7.3.0):
+    - SalesforceAnalytics
+    - SalesforceSDKCore/SalesforceSDKCore/base
+  - SmartStore (7.3.0):
+    - SmartStore/SmartStore (= 7.3.0)
+  - SmartStore/SmartStore (7.3.0):
+    - FMDB/SQLCipher (~> 2.7.5)
+    - SalesforceSDKCore
+    - SQLCipher/fts (~> 4.2.0)
+  - SmartSync (7.3.0):
+    - SmartSync/SmartSync (= 7.3.0)
+  - SmartSync/SmartSync (7.3.0):
+    - SalesforceSDKCore
+    - SmartStore
+  - SQLCipher (4.2.0):
+    - SQLCipher/standard (= 4.2.0)
+  - SQLCipher/common (4.2.0)
+  - SQLCipher/fts (4.2.0):
+    - SQLCipher/common
+  - SQLCipher/standard (4.2.0):
+    - SQLCipher/common
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - GooglePlaces
+  - SalesforceSDKCore
+  - SmartSync
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - FMDB
+    - GoogleMaps
+    - GooglePlaces
+    - SQLCipher
+    - SwiftyJSON
+  https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Specs:
+    - SalesforceAnalytics
+    - SalesforceSDKCommon
+    - SalesforceSDKCore
+    - SmartStore
+    - SmartSync
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GoogleMaps: 82f8fe307193bb4de6ef6bf9e88f1d624b718f9d
+  GooglePlaces: 1b9d29cf3e164903d873600f511f42acdfe85294
+  SalesforceAnalytics: 4412b7574afbcb7e413c1d756fcc455016ecc002
+  SalesforceSDKCommon: b01968329b79803d47719759331c133c3c09ff6f
+  SalesforceSDKCore: 51606666bfbd48fba75be49198de63dfc7b7154c
+  SmartStore: 5325271f6a1ebda0771251e158de37752431bf53
+  SmartSync: 7171990721b5577cfae44a62f83e9681d5916fc4
+  SQLCipher: 0187a2180ac288ea686b670b7141da62cd013b16
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: fefceb9e34f685e6dee28b9477f504fe6a2baaf3
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,16 @@
+{
+  "syncs": [
+    {
+      "syncName": "syncDownCase",
+      "syncType": "syncDown",
+      "soupName": "Case",
+      "target": {
+        "type": "soql",
+        "query": "SELECT Id FROM Case WHERE Status != 'Closed' ORDER BY CaseNumber DESC LIMIT 10"
+      },
+      "options": {
+        "mergeMode": "OVERWRITE"
+      }
+    }
+  ]
+}
